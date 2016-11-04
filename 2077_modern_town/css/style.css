@@ -63,7 +63,23 @@ p {
   line-height: 32px;
 }
 
+button {
+	background-color: #ffa400; /* Green */
+    color: white;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+button:hover {
+	color: #333;
+	opacity: 0.8;
+}
+
+button #more {
+	border-top: 50px;
+	border-left: 45%;
+}
 
 /* All Section styles
 ------------------------------------- */
