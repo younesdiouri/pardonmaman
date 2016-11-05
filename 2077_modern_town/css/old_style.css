@@ -34,7 +34,6 @@ h1,h2,h3,h4,h5 {
 h1 {
   font-size: 62px;
   line-height: 72px;
-	color: #fff;
 }
 
 h2 {
@@ -46,8 +45,8 @@ h2 {
 }
 
 h3 {
-  color: #333;
-  font-size: 30px;
+  color: #ffa400;
+  font-size: 16px;
   letter-spacing: 26px;
   letter-spacing: 2px;
 }
@@ -84,13 +83,9 @@ button #more {
 
 /* All Section styles
 ------------------------------------- */
-#blog, #counter, #contact {
+#testimonial, #blog, #counter, #contact {
    	padding-top: 120px;
   	padding-bottom: 120px;
-}
-
-i#facebook-fa {
-	font-size: 19px;
 }
 
 #about h3 {
@@ -167,23 +162,23 @@ i#facebook-fa {
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-   -ms-flex-align: center;
-   align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100vh;
   text-align: center;
 }
 
 #home .btn-danger {
-  background: #333 !important;
+  background: #ffa400 !important;
   margin-right: 20px;
 }
 
 #home .btn-danger:hover {
-  background: rgba(255,255,255,0.3) !important;
+  background: #ffc400 !important;
 }
 
 #home .btn {
-  background: #3b5998;
+  background: #000000;
   border-color: transparent;
   color: #ffffff;
   font-size: 12px;
@@ -194,8 +189,9 @@ i#facebook-fa {
 }
 
 #home .btn:hover {
-  background: #3b5998;
+  background: #ffa400;
 }
+
 
 /* testimonial section styles
 /* ========================================== */
@@ -275,9 +271,9 @@ i#facebook-fa {
 }
 
 
-/* testimonial section styles
+/* Counter section styles
 /* ========================================== */
-#testimonial {
+#counter {
    background: url('../images/counter-bg.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
@@ -285,7 +281,16 @@ i#facebook-fa {
   text-align: center;
   padding-top: 160px;
   padding-bottom: 160px;
-		color: white;
+}
+
+#counter .counter-number {
+  color: #ffa400;
+  font-size: 32px;
+}
+
+#counter .counter-text {
+  color: #ffffff;
+  letter-spacing: 2px;
 }
 
 
@@ -431,7 +436,6 @@ footer a:hover {
   #counter .counter-item {
     padding-top: 20px;
     padding-bottom: 20px;
-			
   }
   
 }
